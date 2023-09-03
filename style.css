@@ -13,15 +13,21 @@ input {
   border: 1px solid #dcdcdc;
   background: #fff;
   margin-bottom: 8px;
+  padding: 31px 0 30px 46px;
 }
-
+textarea {
+  width: 557px;
+  height: 189px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 31px 0 126px 46px;
+  
+}
 .info {
   margin: 27px 0px 174px 154px;
 }
-.big {
-  width: 557px;
-  height: 189px;
-}
+
 ul {
   list-style: none;
 }
@@ -50,6 +56,7 @@ button {
 .main {
   background: url(./img/bg.png) right top / contain no-repeat;
   padding: 12px 0 12px 0;
+  position: relative;
 }
 .svg_div {
   margin: 79px 0 104px 343px;
@@ -58,25 +65,48 @@ footer {
   background-color: #fafafa;
   height: 200px;
   position: relative;
+  padding: 0;
+  margin: 0;
 }
-.ftr_iteam {
-  height: 16.086px;
-  width: 20px;
-}
+
 .footer_ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 0;
- 
-  row-gap: 8px;
+  margin: 0;
+  position: absolute;
+  position: absolute;
+  left: 28%;
+  top: 40%;
 }
 .img3 {
-position: absolute;
-top: 99%;
+  position: absolute;
+  top: -19% 
 }
 hr {
-  border: 1px solid #D8D8D8;
-background: #FAFAFA;
-width: 100%;
+  border: 1px solid #d8d8d8;
+  background: #fafafa;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.main_form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 23px;
+}
+.container {
+  width: 1140px;
+}
+.img5 {
+  position: absolute;
+  left: 78%;
+  top: -1%;
+}
+.img6 {
+  position: absolute;
+  left: 94.4%;
+  
 }
